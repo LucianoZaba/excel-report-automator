@@ -1,7 +1,7 @@
 venv/
 __pycache__/
 *.pyc
+data/raw/*.xlsx
+data/raw/*.xls
 data/processed/*
 !data/processed/.gitkeep
-data/raw/*
-!data/raw/.gitkeep

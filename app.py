@@ -18,8 +18,7 @@ def main():
 
     pipeline = Pipeline()
     result = pipeline.run(str(input_path), args.output, save_to_db=args.db)
-    print(f"
-✅ Reporte generado: {result}")
+    print(f"✅ Reporte generado: {result}")
 
 if __name__ == "__main__":
     main()

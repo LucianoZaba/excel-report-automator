@@ -172,6 +172,18 @@ El resultado se guardará en:
 ```text
 data/processed/reporte_limpio.xlsx
 ```
+### 📄 Archivo de prueba
+
+El proyecto incluye `data/raw/ejemplo.xlsx` como archivo de prueba para poder ejecutar el programa inmediatamente después de la instalación.
+
+Podés utilizarlo para comprobar el funcionamiento del automatizador:
+
+```bash
+python app.py
+```
+
+El archivo es únicamente un ejemplo y **podés eliminarlo o reemplazarlo por tu propio archivo Excel** cuando quieras utilizar el proyecto con datos reales.
+
 
 ### Especificar archivo de entrada y salida
 
